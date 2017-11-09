@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Authors>Brant Burnett</Authors>
+    <Authors>Brant Burnett; Couchbase</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Couchbase.Extensions.DependencyInjection</AssemblyName>
     <PackageId>Couchbase.Extensions.DependencyInjection</PackageId>
-    <PackageTags>Couchbase;netcore</PackageTags>
+    <PackageTags>Couchbase;netcore;di;dependency;nosql;database</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/couchbaselabs/Linq2Couchbase/master/Packaging/couchbase-logo.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/couchbaselabs/Couchbase.Extensions</PackageProjectUrl>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
@@ -16,6 +16,10 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Version>2.0.0</Version>
+    <Description>A .Net Core style dependency injection framework for a Couchbase cluster and buckets. It simplifies cluster configuration, lifetime management, and bucket injection.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Supports .NET Core 2.0</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
