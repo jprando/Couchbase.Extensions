@@ -1,9 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Authors>Brant Burnett</Authors>
+    <Authors>Couchbase;Brant Burnett</Authors>
+    <Owners>Couchbase, Inc.</Owners>
+    <Copyright>Copyright, Inc. 2018</Copyright>
+    <Title>Couchbase DNS-SRV for .NET Core</Title>
+    <Description>A .Net Core compatible DNS SRV mechanism for discovering a Couchbase cluster dynamically.</Description>
+    <Summary>Couchbase DNS-SRV for .NET Core</Summary>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Couchbase.Extensions.DnsDiscovery</AssemblyName>
+    <Version>2.0.1</Version>
     <PackageId>Couchbase.Extensions.DnsDiscovery</PackageId>
     <PackageTags>Couchbase;netcore;dns;microservices</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/couchbaselabs/Linq2Couchbase/master/Packaging/couchbase-logo.png</PackageIconUrl>
@@ -16,6 +22,7 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

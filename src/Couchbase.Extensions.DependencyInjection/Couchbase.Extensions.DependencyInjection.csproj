@@ -1,11 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Authors>Brant Burnett</Authors>
+    <Authors>Brant Burnett; Couchbase</Authors>
+    <Title>Couchbase Dependency Injection for .NET Core</Title>
+    <Summary>Couchbase Dependency Injection for .NET Core</Summary>
+    <Description>A .Net Core style dependency injection framework for a Couchbase cluster and buckets. It simplifies cluster configuration, lifetime management, and bucket injection.</Description>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Couchbase.Extensions.DependencyInjection</AssemblyName>
     <PackageId>Couchbase.Extensions.DependencyInjection</PackageId>
-    <PackageTags>Couchbase;netcore</PackageTags>
+    <Version>2.0.1</Version>
+    <PackageTags>Couchbase;netcore;di;dependencyinjection;nosql;database</PackageTags>
+    <Copyright>Couchbase, Inc. 2018</Copyright>
     <PackageIconUrl>https://raw.githubusercontent.com/couchbaselabs/Linq2Couchbase/master/Packaging/couchbase-logo.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/couchbaselabs/Couchbase.Extensions</PackageProjectUrl>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
@@ -16,6 +21,7 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
